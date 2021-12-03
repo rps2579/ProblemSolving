@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Day3_P1",
+            "request": "launch",
+            "mainClass": "AdventOfCode.Solutions.Day3_P1",
+            "projectName": "ProblemSolving_f4d3787c"
+        },
+        {
+            "type": "java",
             "name": "Launch Day2_P2",
             "request": "launch",
             "mainClass": "AdventOfCode.Solutions.Day2_P2",
