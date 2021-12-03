@@ -19,16 +19,9 @@ public class Day3_P1 {
     private static long convertToDecimal(int[] binaryNumArray) {
         long decimal = (long) 0;
         for (int i = binaryNumArray.length-1; i >= 0; i--) {
-              // 1 0 0 1 0
-              // 0 1 2 3 4 
-              //       5-i+1
                 int temp = binaryNumArray[i]; 
-                // System.out.println("i:"+i+", bit:"+temp+", Math.pow:"+Math.pow(2, binaryNumArray.length-i+1));
                 decimal += (long) (temp*Math.pow(2, binaryNumArray.length-i-1));
         }  
-        // System.out.println("converted :");
-        // printArray(binaryNumArray);
-        // System.out.println("\t"+decimal);
         return decimal;
     }
 
@@ -38,15 +31,6 @@ public class Day3_P1 {
             gamma[i] = currMost;
             epsilon[i] = (currMost==1) ? 0:1;
         }
-        // printArray(gamma);
-        // printArray(epsilon);
-    }
-
-    private static void printArray(int[] arr) {
-        for (int i : arr) {
-            System.out.print(i + ", ");
-        }
-        System.out.println();
     }
 
     private static int findMostFreqForCurrBit(int currOneCount) {
