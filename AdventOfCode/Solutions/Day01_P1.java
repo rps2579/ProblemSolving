@@ -2,7 +2,7 @@ package AdventOfCode.Solutions;
 
 import java.util.Scanner;
 
-public class Day1_P1 {
+public class Day01_P1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

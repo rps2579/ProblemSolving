@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Day2_P1 {
+public class Day02_P1 {
 
     static List<String> inputCommands;
     private static int horizontalCoordinate = 0;

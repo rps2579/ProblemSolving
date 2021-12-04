@@ -2,7 +2,7 @@ package AdventOfCode.Solutions;
 
 import java.util.Scanner;
 
-public class Day3_P1 {
+public class Day03_P1 {
     private static int[] onesCount;
     private static int[] epsilon;
     private static int[] gamma;

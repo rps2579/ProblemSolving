@@ -3,7 +3,7 @@ package AdventOfCode.Solutions;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Day3_P2 {
+public class Day03_P2 {
 
     private static List<String> inputBinaryValues;
     private static List<String> oxygenGeneratorValues = new ArrayList<>();
